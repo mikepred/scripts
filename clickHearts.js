@@ -239,7 +239,7 @@ async function clickAllHearts() { // Renaming the main function to avoid conflic
     } else {
         console.log(\"Stopped because no more scrollable content was detected or loop completed naturally.\");
     }
-    return `Total hearts clicked: ${totalHeartsClicked}`;\
+    return `Total hearts clicked: ${totalHeartsClicked}`;
 }
 
 // The following is for direct execution via puppeteer_evaluate, which includes a delay.
